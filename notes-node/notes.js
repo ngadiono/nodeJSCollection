@@ -1,12 +1,10 @@
-console.log('starting notes.js');
-
-module.exports.age = 26;
+console.log('Starting notes.js');
 
 module.exports.addNote = () => {
   console.log('addNote');
-  return "New note";
-}
+  return 'New Note'
+};
 
 module.exports.add = (a, b) => {
   return a + b;
-}
+};
